@@ -4,6 +4,7 @@ if(isset($_SESSION['usernm'])){
 	echo "<script> window.location.href='/u/".rtrim($_SESSION['usernm'])."/view_message.php' </script>";
 }
 ?>
+<title>Pigeon | FREE anonymous msg!</title>
 <center>
 <div class='part1'>
 <h1 align='center'>Welcome to pigeon anonymous msg sender!</h1>
