@@ -144,10 +144,10 @@ if(isset($_POST['submit'])){
 <div class='division'>
 <h1 align='center'>Register</h1>
 <form method='POST'>
-    <input style='border-radius:8px 8px 0px 0px' class='txtfield' placeholder='Enter username' type='text' name='user' required><br>
+    <input style='border-radius:8px 8px 0px 0px' class='txtfield' placeholder='Enter Username' type='text' name='user' required><br>
     <input class='txtfield' placeholder='Email (not mandatory)' name='email'><br>
-    <input class='txtfield' placeholder='Enter password' type='password' name='pass' required><br>
-    <input style='border-radius:0px 0px 8px 8px; margin-bottom: 6px' class='txtfield' placeholder='Re-enter username' type='password' name='cPass' required><br>
+    <input class='txtfield' placeholder='Enter Password' type='password' name='pass' required><br>
+    <input style='border-radius:0px 0px 8px 8px; margin-bottom: 6px' class='txtfield' placeholder='Re-enter Password' type='password' name='cPass' required><br>
     <input type="checkbox" name="test" value="ok"> I agree with <a style='text-decoration:none; color:darkblue' href="/conditions.php">Terms & Conditions</a><br>
     <button type='submit' name='submit' class='btn'>REGISTER</button>
 </form>
