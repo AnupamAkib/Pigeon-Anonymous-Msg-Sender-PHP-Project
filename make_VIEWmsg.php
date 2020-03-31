@@ -33,8 +33,8 @@ if(file_exists("MsGg.txt")){
 <title>Pigeon | All Messages</title>
 <center><h1>WELCOME, <?php echo $_SESSION['usernm'] ?>!</h1>
 
-<div class='profile_link'>Your Profile Link: <br><a style="text-decoration:none; color:white; font-size:22px;" href="/u/<?php echo $_SESSION['usernm'] ?>" target="_blank">http://pigeonbd.ml<br>/u/<?php echo $_SESSION['usernm'] ?></a><br><br>
-<a href="https://www.facebook.com/sharer/?u=http://pigeonbd.ml/u/<?php echo $_SESSION['usernm']?>" class="share" target='_blank'><i class='fa fa-facebook-square' style='color:#fff; font-size:28px;'></i> Share My Profile</a></button><br>
+<div class='profile_link'>Your Profile Link: <br><a style="text-decoration:none; color:white; font-size:22px;" href="/u/<?php echo $_SESSION['usernm'] ?>" target="_blank">http://pigeonbd.herokuapp.com<br>/u/<?php echo $_SESSION['usernm'] ?></a><br><br>
+<a href="https://www.facebook.com/sharer/?u=http://pigeonbd.herokuapp.com/u/<?php echo $_SESSION['usernm']?>" class="share" target='_blank'><i class='fa fa-facebook-square' style='color:#fff; font-size:28px;'></i> Share My Profile</a></button><br>
 </div><br>
 <h1>All messages (<?php echo $msg_cnt ?>)</h1>Touch the message to view full screen</center>
 <div class='divisionTWO'>
